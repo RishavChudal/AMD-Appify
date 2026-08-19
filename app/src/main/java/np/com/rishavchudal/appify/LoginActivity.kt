@@ -17,13 +17,13 @@ class LoginActivity : AppCompatActivity() {
 
         Toast.makeText(application.applicationContext, "Hi there", Toast.LENGTH_SHORT).show()
 
-        viewBinding.btnLogin.setOnClickListener {
-
-            Toast.makeText(application, "Button Clicked", Toast.LENGTH_SHORT).show()
-        }
-
-        viewBinding.ivLogin.setOnClickListener {
-            Toast.makeText(application, "ImageView Clicked", Toast.LENGTH_SHORT).show()
-        }
+//        viewBinding.btnLogin.setOnClickListener {
+//
+//            Toast.makeText(application, "Button Clicked", Toast.LENGTH_SHORT).show()
+//        }
+//
+//        viewBinding.ivLogin.setOnClickListener {
+//            Toast.makeText(application, "ImageView Clicked", Toast.LENGTH_SHORT).show()
+//        }
     }
 }
